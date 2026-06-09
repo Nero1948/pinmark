@@ -1,0 +1,98 @@
+[
+  {
+    "id": "landforms",
+    "title": "Landforms & Mountains",
+    "blurb": "Explore the dramatic mountains, volcanoes, and glaciers that shape Aotearoa's rugged landscape.",
+    "difficulty": "medium",
+    "emoji": "🏔️",
+    "curriculumStrand": "Place and Environment — Level 4",
+    "locationIds": [
+      "aoraki-mt-cook",
+      "tongariro",
+      "franz-josef-glacier",
+      "castle-hill",
+      "punakaiki",
+      "milford-sound"
+    ]
+  },
+  {
+    "id": "water-coast",
+    "title": "Water, Lakes & Coast",
+    "blurb": "Discover New Zealand's stunning coastline, glacial lakes, and crystal-clear waters.",
+    "difficulty": "easy",
+    "emoji": "🌊",
+    "curriculumStrand": "Place and Environment — Level 4",
+    "locationIds": [
+      "lake-tekapo",
+      "lake-wanaka",
+      "cathedral-cove",
+      "piha-beach",
+      "abel-tasman",
+      "bay-of-islands"
+    ]
+  },
+  {
+    "id": "cities-people",
+    "title": "Cities & People",
+    "blurb": "Find out why New Zealand's cities are where they are and what makes each one unique.",
+    "difficulty": "easy",
+    "emoji": "🏙️",
+    "curriculumStrand": "Social Organisation — Level 4-5",
+    "locationIds": [
+      "sky-tower",
+      "wellington-waterfront",
+      "christchurch",
+      "dunedin-station",
+      "hamilton-gardens",
+      "new-plymouth"
+    ]
+  },
+  {
+    "id": "cultural-historic",
+    "title": "Cultural & Historic Sites",
+    "blurb": "Discover the places that shaped the history and culture of Aotearoa New Zealand.",
+    "difficulty": "medium",
+    "emoji": "🏛️",
+    "curriculumStrand": "Continuity and Change — Level 4-5",
+    "locationIds": [
+      "cape-reinga",
+      "whakarewarewa",
+      "arrowtown",
+      "napier",
+      "hokianga",
+      "waitomo"
+    ]
+  },
+  {
+    "id": "climate-environment",
+    "title": "Climate & Environment",
+    "blurb": "Explore New Zealand's diverse climates from the dry Central Otago to the lush West Coast.",
+    "difficulty": "hard",
+    "emoji": "🌿",
+    "curriculumStrand": "Place and Environment — Level 5",
+    "locationIds": [
+      "stewart-island",
+      "marlborough-sounds",
+      "kaikoura",
+      "paparoa",
+      "lake-te-anau",
+      "cromwell"
+    ]
+  },
+  {
+    "id": "grand-tour",
+    "title": "Grand Aotearoa Tour",
+    "blurb": "The ultimate challenge: 6 iconic places from across the length and breadth of Aotearoa.",
+    "difficulty": "hard",
+    "emoji": "🗺️",
+    "curriculumStrand": "All strands — Level 4-5",
+    "locationIds": [
+      "rangitoto",
+      "hobbiton",
+      "akaroa",
+      "queenstown",
+      "oamaru",
+      "hokitika"
+    ]
+  }
+]

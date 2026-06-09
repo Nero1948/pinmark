@@ -1,0 +1,938 @@
+[
+  {
+    "id": "aoraki-mt-cook",
+    "name": "Aoraki / Mount Cook",
+    "teReo": "Aoraki",
+    "region": "Canterbury",
+    "island": "South",
+    "lat": -43.5950,
+    "lng": 170.1419,
+    "photo": "/images/aoraki-mt-cook.jpg",
+    "credit": "Photo: Avenue / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Sefton_and_the_Footstool_1.jpg",
+    "desc": "Aoraki is the highest mountain in Aotearoa New Zealand, standing 3,724 metres above sea level in the heart of the Southern Alps. To Ngāi Tahu, Aoraki is the most sacred of ancestors, from whom the iwi descend and draw their identity.",
+    "why": "The Southern Alps were pushed upward by the collision of the Pacific and Australian tectonic plates, and the Alpine Fault still lifts the land around 7 mm every year, so Aoraki keeps growing even as glaciers and erosion wear it down.",
+    "fact": "Did you know? A huge avalanche in 1991 removed about 10 metres from the summit, and erosion since then has taken off another 30 metres.",
+    "curriculum": "Landforms: tectonic plate collision and uplift (Level 4)",
+    "bonus": {
+      "q": "What tectonic plates collide to form the Southern Alps?",
+      "opts": ["Pacific and Australian plates", "Pacific and Antarctic plates", "Australian and Indian plates"],
+      "correct": 0
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/"
+    }
+  },
+  {
+    "id": "tongariro",
+    "name": "Tongariro National Park",
+    "teReo": "Tongariro",
+    "region": "Manawatu-Whanganui",
+    "island": "North",
+    "lat": -39.2727,
+    "lng": 175.5802,
+    "photo": "/images/tongariro.jpg",
+    "credit": "Photo: Javier Sánchez Portero / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Ngaurahoe.jpg",
+    "desc": "Tongariro National Park is home to three active volcanoes: Ruapehu, Ngauruhoe, and Tongariro, forming one of the most dramatic landscapes in the country. Mount Ngauruhoe's perfectly cone-shaped peak is considered sacred by Māori and was used as Mount Doom in the Lord of the Rings films.",
+    "why": "The volcanoes formed because the Pacific Plate is slowly pushing under the Australian Plate in a process called subduction, and as the Pacific Plate melts deep underground, magma forces its way up to the surface to create volcanic mountains.",
+    "fact": "Did you know? Tongariro National Park is a dual World Heritage Site, recognised for both its outstanding natural features and its deep spiritual significance to Māori.",
+    "curriculum": "Landforms: volcanic processes and plate subduction (Level 4)",
+    "bonus": {
+      "q": "What process creates the volcanoes in Tongariro National Park?",
+      "opts": ["Two tectonic plates colliding and one sliding under the other", "A meteor impact millions of years ago", "Glaciers melting and exposing ancient rock"],
+      "correct": 0
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Tongariro_National_Park",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/"
+    }
+  },
+  {
+    "id": "franz-josef-glacier",
+    "name": "Franz Josef Glacier",
+    "teReo": "Kā Roimata o Hine Hukatere",
+    "region": "West Coast",
+    "island": "South",
+    "lat": -43.4669,
+    "lng": 170.1882,
+    "photo": "/images/franz-josef-glacier.jpg",
+    "credit": "Photo: Avenue / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Looking_down_the_Franz_Josef_Glacier_from_above_the_Melchior_Glacier.jpg",
+    "desc": "Kā Roimata o Hine Hukatere, meaning the tears of Hine Hukatere, is a 12-kilometre-long river of ice that flows down from the Southern Alps almost to rainforest level. It is one of the few glaciers in the world that descends so steeply into a temperate environment.",
+    "why": "The glacier forms where snow and ice build up in high-altitude snowfields above 2,500 metres, compressing into dense glacial ice that is heavy enough to flow downhill through a steep valley carved by the ice itself over thousands of years.",
+    "fact": "Did you know? Franz Josef Glacier receives up to 15 metres of snowfall a year in its upper reaches, making it one of the highest-precipitation glaciers on Earth.",
+    "curriculum": "Landforms: glacial processes and ice movement (Level 4)",
+    "bonus": {
+      "q": "What does the Māori name Kā Roimata o Hine Hukatere mean?",
+      "opts": ["The mountain of the sky father", "The tears of Hine Hukatere", "The frozen river of the south"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Franz_Josef_Glacier",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/westland-tai-poutini-national-park/franz-josef-glacier/"
+    }
+  },
+  {
+    "id": "castle-hill",
+    "name": "Castle Hill / Kura Tawhiti",
+    "teReo": "Kura Tawhiti",
+    "region": "Canterbury",
+    "island": "South",
+    "lat": -43.2333,
+    "lng": 171.7222,
+    "photo": "/images/castle-hill.jpg",
+    "credit": "Photo: Borvan53 / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_hill_New_Zealand_Rocks_1.JPG",
+    "desc": "Kura Tawhiti is a basin scattered with hundreds of huge limestone boulders that have been sculpted by wind, rain, and time into strange and beautiful shapes. The site has great cultural significance for Ngāi Tahu, and its name translates roughly as 'treasure from a distant place'.",
+    "why": "The limestone formed from the shells and bones of sea creatures that settled on the ocean floor around 30 million years ago, when this area was under a shallow inland sea. Tectonic uplift pushed the rock above ground, and erosion by water has gradually carved the boulders into the shapes we see today.",
+    "fact": "Did you know? The limestone from Castle Hill was used to build the front facade of the original Christchurch Cathedral.",
+    "curriculum": "Landforms: sedimentary rock formation and karst erosion (Level 4)",
+    "bonus": {
+      "q": "What type of rock are the Castle Hill boulders made from?",
+      "opts": ["Granite", "Limestone", "Basalt"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Castle_Hill,_New_Zealand",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/kura-tawhiti-castle-hill/"
+    }
+  },
+  {
+    "id": "punakaiki",
+    "name": "Punakaiki Pancake Rocks",
+    "teReo": "Punakaiki",
+    "region": "West Coast",
+    "island": "South",
+    "lat": -42.1083,
+    "lng": 171.3361,
+    "photo": "/images/punakaiki.jpg",
+    "credit": "Photo: Andy king50 / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Punakaiki_resort_beach.JPG",
+    "desc": "The Pancake Rocks at Punakaiki are a bizarre stack of layered limestone formations that look exactly like giant piles of pancakes sitting on the edge of the Tasman Sea. At high tide and during big swells, seawater is forced up through tunnels in the rock, shooting out through dramatic blowholes.",
+    "why": "About 30 million years ago, fragments of dead sea creatures and plants settled on the ocean floor and were slowly compressed into layers of hard and soft limestone. Earthquakes lifted this rock above sea level, and the sea, rain, and wind then carved the characteristic layered pancake shapes.",
+    "fact": "Did you know? On a big swell day, the Punakaiki blowholes can shoot water and air high into the air, attracting thousands of visitors.",
+    "curriculum": "Landforms: sedimentary rock, tectonic uplift, and coastal erosion (Level 4)",
+    "bonus": {
+      "q": "What are the Punakaiki Pancake Rocks made from?",
+      "opts": ["Layers of volcanic ash", "Compacted shells and sea-creature fragments turned to limestone", "Granite eroded by the river"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Punakaiki",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/pancake-rocks-and-blowholes-walk/"
+    }
+  },
+  {
+    "id": "milford-sound",
+    "name": "Milford Sound / Piopiotahi",
+    "teReo": "Piopiotahi",
+    "region": "Southland",
+    "island": "South",
+    "lat": -44.6481,
+    "lng": 167.9056,
+    "photo": "/images/milford-sound.jpg",
+    "credit": "Photo: Paul Bica / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milford_sound_(8237971913).jpg",
+    "desc": "Piopiotahi is a stunning fiord carved deep into the mountains of Fiordland, where sheer rock walls rise over 1,200 metres straight out of the water. Its Māori name means 'one piopio came here', recalling the legend of a single bird that flew to mourn after the demigod Māui was killed.",
+    "why": "Massive glaciers ground through this valley for hundreds of thousands of years, carving a deep U-shape into the hard rock. When the ice melted about 16,000 years ago, the sea flooded in to create the fiord we see today.",
+    "fact": "Did you know? Milford Sound is one of the wettest places on Earth, receiving up to 7 metres of rain per year, which keeps its famous waterfalls flowing year-round.",
+    "curriculum": "Landforms: glacial fiord processes (Level 4)",
+    "bonus": {
+      "q": "How was Milford Sound / Piopiotahi formed?",
+      "opts": ["A river cut through the mountains over millions of years", "A glacier slowly carved a U-shaped valley, which was later flooded by the sea", "Volcanic eruptions collapsed the land and the sea rushed in"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Milford_Sound",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/about-fiordland-national-park/nature-and-conservation/"
+    }
+  },
+  {
+    "id": "lake-tekapo",
+    "name": "Lake Tekapo / Takapō",
+    "teReo": "Takapō",
+    "region": "Canterbury",
+    "island": "South",
+    "lat": -44.0046,
+    "lng": 170.4771,
+    "photo": "/images/lake-tekapo.jpg",
+    "credit": "Photo: edwin.11 / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_in_Lake_Tekapo_(4695391629).jpg",
+    "desc": "Takapō is famous for its striking turquoise colour, caused by tiny particles of glacially ground rock flour suspended in the water that reflect light in a magical way. The lake also sits inside the world's largest dark-sky reserve, making it one of the best places in the Southern Hemisphere to stargaze.",
+    "why": "The lake basin was scooped out by a huge glacier that advanced down from the Southern Alps during the last ice age. When the ice retreated around 14,000 years ago, it left behind a wall of glacial debris called a moraine that dammed the valley and formed the lake.",
+    "fact": "Did you know? The 4,367-square-kilometre Aoraki Mackenzie International Dark Sky Reserve around Takapō is the largest dark-sky reserve in the Southern Hemisphere.",
+    "curriculum": "Water environments: glacial lakes and rock flour (Level 4)",
+    "bonus": {
+      "q": "Why is Lake Tekapo / Takapō such a vivid turquoise colour?",
+      "opts": ["Blue algae grows thickly in the shallow water", "Tiny particles of rock flour from glaciers are suspended in the water and reflect light", "The lake is very deep and deep water always looks blue"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lake_Tekapo",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-tekapo-area/"
+    }
+  },
+  {
+    "id": "lake-wanaka",
+    "name": "Lake Wānaka",
+    "teReo": "Wānaka",
+    "region": "Otago",
+    "island": "South",
+    "lat": -44.5000,
+    "lng": 169.1330,
+    "photo": "/images/lake-wanaka.jpg",
+    "credit": "Photo: Paul Bica / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morning_view,_Wanaka.jpg",
+    "desc": "Wānaka is one of New Zealand's largest and most beautiful lakes, stretching 42 kilometres through a deep glacial valley surrounded by the mountains of the Southern Alps. The lake is the source of the mighty Clutha River, New Zealand's largest river by volume.",
+    "why": "During the last ice age, a colossal glacier ground its way down from the main divide near Mount Aspiring, carving a deep U-shaped valley into the rock. When the glacier retreated around 10,000 years ago, meltwater pooled behind a ridge of glacial debris to form the lake.",
+    "fact": "Did you know? Wānaka reaches a depth of 311 metres, deep enough to submerge the Sky Tower in Auckland three times over.",
+    "curriculum": "Water environments: glacial lake formation (Level 4)",
+    "bonus": {
+      "q": "Which New Zealand river begins at Lake Wānaka?",
+      "opts": ["The Waikato River", "The Clutha River", "The Waitaki River"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lake_W%C4%81naka",
+      "government": "https://teara.govt.nz/en/1966/wanaka-lake"
+    }
+  },
+  {
+    "id": "cathedral-cove",
+    "name": "Cathedral Cove / Te Hoho Rock",
+    "teReo": "Te Hoho",
+    "region": "Waikato",
+    "island": "North",
+    "lat": -36.8276,
+    "lng": 175.7900,
+    "photo": "/images/cathedral-cove.jpg",
+    "credit": "Photo: Borvan53 / Public domain",
+    "licence": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_cove_Beach.JPG",
+    "desc": "Cathedral Cove on the Coromandel Peninsula is famous for its enormous natural archway carved through a headland of creamy white volcanic rock, connecting two secluded beaches. Te Hoho Rock stands tall just offshore, shaped by thousands of years of wave action.",
+    "why": "The rocks here are made of ignimbrite, a light volcanic material formed from ancient ash and pumice flows. Because ignimbrite is relatively soft, the sea has been able to slowly dissolve and erode it into caves, arches, and sea stacks over thousands of years.",
+    "fact": "Did you know? Cathedral Cove was closed to visitors for nearly two years after Cyclone Gabrielle in 2023 caused major rockfalls and landslides along the track.",
+    "curriculum": "Coastlines: coastal erosion and wave action on volcanic rock (Level 4)",
+    "bonus": {
+      "q": "What type of volcanic rock forms the Cathedral Cove archway?",
+      "opts": ["Basalt", "Granite", "Ignimbrite"],
+      "correct": 2
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Cathedral_Cove",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/coromandel/places/hahei-area/te-whanganui-o-hei-cathedral-cove-marine-reserve/"
+    }
+  },
+  {
+    "id": "piha-beach",
+    "name": "Piha Beach",
+    "teReo": "Piha",
+    "region": "Auckland",
+    "island": "North",
+    "lat": -36.9540,
+    "lng": 174.4710,
+    "photo": "/images/piha-beach.jpg",
+    "credit": "Photo: Avenue / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion_Rock_from_South_Piha.jpg",
+    "desc": "Piha is Auckland's most famous black-sand beach, sitting on the wild Tasman Sea coast just 39 kilometres from the city and surrounded by the dramatic ridges of the Waitākere Ranges. The powerful surf and strong rip currents make it thrilling to watch but always requiring care.",
+    "why": "Piha's dark sand is rich in iron and comes from the ancient Waitākere Volcano, which erupted around 17 million years ago. Waves and wind have broken down the volcanic rock over millions of years, creating the distinctive dark titanomagnetite sand.",
+    "fact": "Did you know? Lion Rock, the iconic 28-metre pinnacle dividing the beach, is the eroded neck of an ancient volcanic vent that was uplifted from the sea around 17 million years ago.",
+    "curriculum": "Coastlines: volcanic landforms and black-sand beaches (Level 4)",
+    "bonus": {
+      "q": "Why is the sand at Piha black?",
+      "opts": ["It is stained by dark seaweed that washes ashore", "It contains high levels of iron from ancient volcanic rock", "The sand is imported from an overseas black-sand beach"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Piha",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/waitakere-ranges-regional-park/"
+    }
+  },
+  {
+    "id": "abel-tasman",
+    "name": "Abel Tasman National Park",
+    "teReo": "Te Tai-o-Aorere",
+    "region": "Tasman",
+    "island": "South",
+    "lat": -40.9051,
+    "lng": 172.9670,
+    "photo": "/images/abel-tasman.jpg",
+    "credit": "Photo: Akos Kokai / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchorage_beach_(6706325871).jpg",
+    "desc": "Abel Tasman, also known as Te Tai-o-Aorere, is New Zealand's smallest national park but one of its most loved, with golden beaches, sheltered coves, and sculpted granite cliffs stretching along the top of the South Island. The 60-kilometre Abel Tasman Coast Track is one of New Zealand's nine Great Walks.",
+    "why": "The park's beautiful golden beaches and rocky headlands are made of Separation Point Granite, a hard rock whose mineral composition weathers into yellowish sand rather than the white or black sand found elsewhere. This granite formed deep underground hundreds of millions of years ago and was slowly exposed by erosion.",
+    "fact": "Did you know? Granite quarried from inside the park was used to build Nelson Cathedral and the Wellington Post Office.",
+    "curriculum": "Coastlines: granite geology and coastal landforms (Level 4)",
+    "bonus": {
+      "q": "What gives Abel Tasman's beaches their distinctive golden colour?",
+      "opts": ["Minerals in the Separation Point Granite weather into golden-coloured sand", "The beaches are covered in tiny golden shells", "The sand reflects the sunlight differently here"],
+      "correct": 0
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Abel_Tasman_National_Park",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/"
+    }
+  },
+  {
+    "id": "bay-of-islands",
+    "name": "Bay of Islands / Te Pēwhairangi",
+    "teReo": "Te Pēwhairangi",
+    "region": "Northland",
+    "island": "North",
+    "lat": -35.2741,
+    "lng": 174.0683,
+    "photo": "/images/bay-of-islands.jpg",
+    "credit": "Photo: Ronnie Macdonald / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clipper_in_Kororareka_Bay,_Russell_2_(5646072038).jpg",
+    "desc": "Te Pēwhairangi is a sheltered bay dotted with 144 islands off the Northland coast, and it is one of the most historically significant places in all of Aotearoa New Zealand. It was here at Waitangi in 1840 that Māori rangatira and the British Crown signed Te Tiriti o Waitangi, New Zealand's founding document.",
+    "why": "The bay is a drowned valley system: ancient river valleys were flooded when sea levels rose after the last ice age ended around 10,000 years ago. The many islands are actually the tops of old hills that were not fully submerged when the sea came in.",
+    "fact": "Did you know? Captain James Cook named the Bay of Islands on 27 November 1769 after counting the many islands scattered across the bay.",
+    "curriculum": "Coastlines and history: drowned valley coastlines and NZ founding history (Level 4)",
+    "bonus": {
+      "q": "Why are there so many islands in the Bay of Islands?",
+      "opts": ["Volcanoes erupted underwater and pushed up new land", "Rising seas after the ice age flooded ancient river valleys, leaving hilltops as islands", "The islands were deposited by a large river over thousands of years"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Bay_of_Islands",
+      "government": "https://nzhistory.govt.nz/keyword/bay-islands"
+    }
+  },
+  {
+    "id": "sky-tower",
+    "name": "Sky Tower, Auckland",
+    "teReo": "Tāmaki Makaurau",
+    "region": "Auckland",
+    "island": "North",
+    "lat": -36.8485,
+    "lng": 174.7623,
+    "photo": "/images/sky-tower.jpg",
+    "credit": "Photo: Pavel Špindler / CC BY",
+    "licence": "CC BY",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auckland_-_Sky_Tower_-_panoramio.jpg",
+    "desc": "Auckland / Tāmaki Makaurau is New Zealand's largest city, built on a narrow isthmus between two harbours with 53 volcanic cones dotting the landscape. The Sky Tower, standing 328 metres tall in the heart of the CBD, is the second-tallest freestanding structure in the Southern Hemisphere.",
+    "why": "Auckland was settled here because the isthmus offered fertile volcanic soils, two sheltered harbours (Waitematā to the north and Manukau to the south), and easy access between the Pacific Ocean and the Tasman Sea, making it ideal for both Māori and European traders.",
+    "fact": "Did you know? The Sky Tower was designed to withstand winds over 200 km/h and an earthquake of magnitude 8.0 within 20 kilometres.",
+    "curriculum": "Settlement patterns: why Auckland grew as NZ's largest city (Level 4-5)",
+    "bonus": {
+      "q": "How tall is the Sky Tower from the ground to the top of its mast?",
+      "opts": ["228 metres", "328 metres", "428 metres"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Sky_Tower_(Auckland)",
+      "government": "https://teara.govt.nz/en/auckland-places/page-9"
+    }
+  },
+  {
+    "id": "wellington-waterfront",
+    "name": "Wellington / Te Whanganui-a-Tara",
+    "teReo": "Te Whanganui-a-Tara",
+    "region": "Wellington",
+    "island": "North",
+    "lat": -41.2889,
+    "lng": 174.7772,
+    "photo": "/images/wellington-waterfront.jpg",
+    "credit": "Photo: DB Thats-Me / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Light_Bridge_-_panoramio.jpg",
+    "desc": "Wellington is New Zealand's capital city, perched at the southern tip of the North Island where Cook Strait separates the two islands. Te Papa Tongarewa, the national museum, sits right on the waterfront and welcomes around 1.5 million visitors every year.",
+    "why": "Wellington became the capital in 1865 because its central position on Cook Strait made it easier to govern both islands equally, and its large natural harbour was considered good enough to fit the entire Royal Navy fleet.",
+    "fact": "Did you know? Wellington is the southernmost national capital city in the world, sitting at 41 degrees south latitude.",
+    "curriculum": "Settlement patterns: why capital cities are placed centrally (Level 4-5)",
+    "bonus": {
+      "q": "When did Wellington become New Zealand's capital city?",
+      "opts": ["1840", "1865", "1907"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Wellington",
+      "government": "https://teara.govt.nz/en/capital-city"
+    }
+  },
+  {
+    "id": "christchurch",
+    "name": "Christchurch / Ōtautahi",
+    "teReo": "Ōtautahi",
+    "region": "Canterbury",
+    "island": "South",
+    "lat": -43.5311,
+    "lng": 172.6361,
+    "photo": "/images/christchurch.jpg",
+    "credit": "Photo: edwin.11 / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_Square_in_Christchurch_(4666160913).jpg",
+    "desc": "Christchurch / Ōtautahi is the largest city in the South Island, spread across the flat Canterbury Plains at the foot of the Southern Alps. A magnitude 6.3 earthquake in February 2011 killed 185 people and changed the city forever, sparking a massive rebuild that is still reshaping Ōtautahi today.",
+    "why": "Christchurch was founded on the flat, fertile Canterbury Plains where the Avon River / Ōtākaro provided fresh water and the rich farmland could support a large agricultural settlement close to the port at Lyttelton.",
+    "fact": "Did you know? The 2011 earthquake lifted some parts of the city's seafloor by up to 2.7 metres, permanently changing Christchurch's coastline.",
+    "curriculum": "Settlement patterns: flat plains and river access; impact of natural hazards on urban areas (Level 4-5)",
+    "bonus": {
+      "q": "What magnitude was the February 2011 Christchurch earthquake?",
+      "opts": ["5.1", "6.3", "7.1"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Christchurch",
+      "government": "https://teara.govt.nz/en/canterbury-region/page-17"
+    }
+  },
+  {
+    "id": "dunedin-station",
+    "name": "Dunedin Railway Station",
+    "teReo": "Ōtepoti",
+    "region": "Otago",
+    "island": "South",
+    "lat": -45.8753,
+    "lng": 170.5089,
+    "photo": "/images/dunedin-station.jpg",
+    "credit": "Photo: Benchill / CC BY 3.0",
+    "licence": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunedin_Railway_Station_Tower_detail.JPG",
+    "desc": "Dunedin / Ōtepoti is known as the Edinburgh of the South because it was founded in 1848 by Scottish settlers from the Free Church of Scotland, and its street names echo the famous Scottish capital. The stunning Flemish Renaissance railway station, designed by architect George Troup and opened in 1906, is one of the most photographed buildings in New Zealand.",
+    "why": "Dunedin grew at the head of Otago Harbour because the sheltered deep-water port allowed ships to unload supplies and export wool and gold, making it the wealthiest city in New Zealand during the 1860s gold rush.",
+    "fact": "Did you know? The booking hall floor of Dunedin Railway Station is made from almost 750,000 Minton tiles, all laid by hand.",
+    "curriculum": "Settlement patterns: role of natural harbours and gold rushes in city growth (Level 4-5)",
+    "bonus": {
+      "q": "What is the architectural style of Dunedin Railway Station?",
+      "opts": ["Gothic Revival", "Flemish Renaissance", "Art Deco"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Dunedin_railway_station",
+      "government": "https://nzhistory.govt.nz/media/photo/dunedin-railway-station-0"
+    }
+  },
+  {
+    "id": "hamilton-gardens",
+    "name": "Hamilton Gardens",
+    "teReo": "Kirikiriroa",
+    "region": "Waikato",
+    "island": "North",
+    "lat": -37.8046,
+    "lng": 175.3039,
+    "photo": "/images/hamilton-gardens.jpg",
+    "credit": "Photo: Ingolfson / Public domain",
+    "licence": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_Gardens_Japanese_Garden_01.jpg",
+    "desc": "Hamilton / Kirikiriroa, whose name means 'long stretch of gravel' in te reo Māori, sits on the banks of the mighty Waikato River in the heart of the North Island. Hamilton Gardens is a world-class 54-hectare park featuring 28 themed gardens from cultures across the globe, drawing around one million visitors each year.",
+    "why": "Hamilton was established along the Waikato River because the river provided fresh water, rich fertile soil from centuries of flooding, and a transport route through the Waikato Basin, making it an ideal place for both Māori and European settlement.",
+    "fact": "Did you know? The Waikato River, which flows right past Hamilton Gardens, is the longest river in New Zealand at 425 kilometres.",
+    "curriculum": "Settlement patterns: why cities grow along rivers (Level 4-5)",
+    "bonus": {
+      "q": "What does the Māori name Kirikiriroa mean?",
+      "opts": ["Long stretch of gravel", "Place of the river god", "Meeting of two waters"],
+      "correct": 0
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hamilton_Gardens",
+      "government": "https://teara.govt.nz/en/waikato-places/page-7"
+    }
+  },
+  {
+    "id": "new-plymouth",
+    "name": "New Plymouth",
+    "teReo": "Ngāmotu",
+    "region": "Taranaki",
+    "island": "North",
+    "lat": -39.0578,
+    "lng": 174.0742,
+    "photo": "/images/new-plymouth.jpg",
+    "credit": "Photo: Gonzalo Baeza / CC BY 3.0",
+    "licence": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Plymouth_-_Coastal_Walkway_-_panoramio.jpg",
+    "desc": "New Plymouth / Ngāmotu sits on the Taranaki coast with the volcanic cone of Mt Taranaki Maunga looming behind it, making it one of the most dramatic city views in Aotearoa. The 13-kilometre Coastal Walkway and the region's dairy farms and offshore gas fields make New Plymouth an important hub for both lifestyle and energy production.",
+    "why": "New Plymouth was founded on the North Taranaki coast in 1841 because the sheltered landing point near the Sugar Loaf Islands (Ngā Motu) offered the best place to come ashore on an otherwise harbourless coastline.",
+    "fact": "Did you know? Port Taranaki in New Plymouth is the only deep-water port on the entire west coast of New Zealand's North Island.",
+    "curriculum": "Settlement patterns: coastal settlement without a natural harbour; energy resources (Level 4-5)",
+    "bonus": {
+      "q": "What is the height of Mt Taranaki Maunga, which overlooks New Plymouth?",
+      "opts": ["1,518 metres", "2,518 metres", "3,518 metres"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/New_Plymouth",
+      "government": "https://teara.govt.nz/en/taranaki-places/page-3"
+    }
+  },
+  {
+    "id": "cape-reinga",
+    "name": "Cape Reinga / Te Rerenga Wairua",
+    "teReo": "Te Rerenga Wairua",
+    "region": "Northland",
+    "island": "North",
+    "lat": -34.4214,
+    "lng": 172.6797,
+    "photo": "/images/cape-reinga.jpg",
+    "credit": "Photo: Noel Jones / CC BY-SA 2.0",
+    "licence": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Reinga_2013_10_07_(10445181884)_(2).jpg",
+    "desc": "Te Rerenga Wairua, meaning 'the leaping-off place of spirits', is the most spiritually significant place in Aotearoa for Māori, where the spirits of the dead travel along Te Ara Wairua before departing for Hawaiki. From the windswept headland you can watch the Tasman Sea and the Pacific Ocean meet in churning, swirling waters.",
+    "why": "Cape Reinga sits at the very tip of the Aupōuri Peninsula, the northernmost point of the North Island, where two great oceans collide. Its remote, dramatic location at land's end made it the natural choice in Māori tradition for the place where spirits leave Aotearoa.",
+    "fact": "Did you know? The ancient pōhutukawa tree clinging to the rocks at Te Rerenga Wairua is believed to be around 800 years old, and spirits are said to climb down its roots into the underworld.",
+    "curriculum": "Tangata whenua: Māori spiritual geography and significance of Te Rerenga Wairua (Level 4-5)",
+    "bonus": {
+      "q": "What does Te Rerenga Wairua mean in English?",
+      "opts": ["The place where rivers meet", "The leaping-off place of spirits", "The end of the long white cloud"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Cape_Reinga",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/northland/places/te-paki-recreation-reserve/cape-reinga-te-rerenga-wairua/heritage/"
+    }
+  },
+  {
+    "id": "whakarewarewa",
+    "name": "Whakarewarewa",
+    "teReo": "Whakarewarewa",
+    "region": "Bay of Plenty",
+    "island": "North",
+    "lat": -38.1622,
+    "lng": 176.2564,
+    "photo": "/images/whakarewarewa.jpg",
+    "credit": "Photo: Andy king50 / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whakarewarewa_cemetery_2011.JPG",
+    "desc": "Whakarewarewa is a living Māori village in Rotorua where the Tūhourangi Ngāti Wāhiao people have cooked, bathed, and heated their homes using geothermal energy for centuries. The mighty Pōhutu Geyser, the largest active geyser in the Southern Hemisphere, erupts up to 30 metres high roughly every hour.",
+    "why": "The village is located here because Rotorua sits directly above the Taupō Volcanic Zone, where underground heat from magma superheats water to create geysers, hot pools, and steam vents. Māori settled here because the geothermal features provided a constant, free source of energy for cooking and warmth.",
+    "fact": "Did you know? 'Pōhutu' means 'big splash' or 'explosion' in te reo Māori, and the geyser can erupt up to twenty times a day.",
+    "curriculum": "Tangata whenua: Māori relationship with the environment; Taupō Volcanic Zone (Level 4-5)",
+    "bonus": {
+      "q": "How high can the Pōhutu Geyser at Whakarewarewa erupt?",
+      "opts": ["Up to 10 metres", "Up to 30 metres", "Up to 60 metres"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Whakarewarewa",
+      "government": "https://teara.govt.nz/en/photograph/6506/whakarewarewa-living-in-a-thermal-area"
+    }
+  },
+  {
+    "id": "arrowtown",
+    "name": "Arrowtown",
+    "teReo": "Tōtara",
+    "region": "Otago",
+    "island": "South",
+    "lat": -44.9425,
+    "lng": 168.8358,
+    "photo": "/images/arrowtown.jpg",
+    "credit": "Photo: edwin.11 / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arrowtown_(4679126288).jpg",
+    "desc": "Arrowtown sprang up almost overnight in 1862 after gold was discovered in the Arrow River, and within months over 1,500 miners were camped along the riverbank. The well-preserved gold rush village also tells the story of Chinese miners who arrived in the 1870s and built a settlement along Bush Creek that you can still visit today.",
+    "why": "Arrowtown grew exactly where gold was found: in the gravel and shingle of the Arrow River, a fast-flowing mountain stream running down from the Crown Range. Miners settled along the riverbank to work the alluvial deposits, and a town grew around them to supply food, tools, and services.",
+    "fact": "Did you know? At the height of the gold rush Arrowtown had a population of over 7,000 people, but today only around 2,500 people live there.",
+    "curriculum": "NZ history: the Otago gold rush and Chinese settlement (Level 4-5)",
+    "bonus": {
+      "q": "In what year was gold first discovered in the Arrow River near Arrowtown?",
+      "opts": ["1848", "1862", "1880"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Arrowtown",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/arrowtown-area/things-to-do/arrowtown-chinese-settlement/"
+    }
+  },
+  {
+    "id": "napier",
+    "name": "Napier",
+    "teReo": "Ahuriri",
+    "region": "Hawke's Bay",
+    "island": "North",
+    "lat": -39.4903,
+    "lng": 176.9178,
+    "photo": "/images/napier.jpg",
+    "credit": "Photo: Jane Nearing / CC BY-SA 2.0",
+    "licence": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Australian_Mutual_Provident_Society_Building,_Napier_P1220258.jpg",
+    "desc": "Napier / Ahuriri is world-famous for its stunning collection of Art Deco buildings, which were all built quickly after a magnitude 7.8 earthquake on 3 February 1931 killed 256 people and levelled the city. The earthquake even raised the seabed by up to 2.7 metres, creating thousands of hectares of new dry land.",
+    "why": "Napier was established on the Hawke's Bay coast because Ahuriri, the inner lagoon, provided a sheltered anchorage for ships serving the rich agricultural land of the Heretaunga Plains, making it the natural export hub for wool and food from the region.",
+    "fact": "Did you know? Napier is considered one of the best-preserved Art Deco cities in the world, often compared to Miami Beach in the United States.",
+    "curriculum": "NZ history: the 1931 earthquake and Art Deco rebuild; impact of natural disasters (Level 4-5)",
+    "bonus": {
+      "q": "What architectural style was Napier rebuilt in after the 1931 earthquake?",
+      "opts": ["Victorian Gothic", "Art Deco", "Brutalist"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Napier,_New_Zealand",
+      "government": "https://www.geonet.org.nz/earthquake/story/2178228"
+    }
+  },
+  {
+    "id": "hokianga",
+    "name": "Hokianga Harbour",
+    "teReo": "Te Hokianga-nui-a-Kupe",
+    "region": "Northland",
+    "island": "North",
+    "lat": -35.5258,
+    "lng": 173.3786,
+    "photo": "/images/hokianga.jpg",
+    "credit": "Photo: Andy king50 / CC BY-SA 3.0",
+    "licence": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hokianga_Entrance_Pano.JPG",
+    "desc": "Te Hokianga-nui-a-Kupe, meaning 'the place of Kupe's great return', is one of the most ancient and spiritually important harbours in Aotearoa, said to be where the legendary Polynesian navigator Kupe departed on his final voyage back to Hawaiki. Just a short drive south lies Waipoua Forest, home to Tāne Mahuta, a giant kauri tree estimated to be up to 2,500 years old.",
+    "why": "Hokianga Harbour formed around 12,000 years ago when rising sea levels at the end of the last ice age flooded a river valley, creating a long sheltered estuary. This sheltered deep water made it one of the first places in Northland where both Māori and early European traders settled.",
+    "fact": "Did you know? Tāne Mahuta in nearby Waipoua Forest stands 51.5 metres tall with a girth of 13.77 metres, making it the largest kauri tree in New Zealand.",
+    "curriculum": "Tangata whenua: Kupe's legendary navigation; significance of kauri in Northland (Level 4-5)",
+    "bonus": {
+      "q": "What does the full Māori name Te Hokianga-nui-a-Kupe refer to?",
+      "opts": ["The great fishing ground of Kupe", "The place of Kupe's great return", "The harbour where Kupe was born"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hokianga",
+      "government": "https://teara.govt.nz/en/northland-places/page-11"
+    }
+  },
+  {
+    "id": "waitomo",
+    "name": "Waitomo Glowworm Caves",
+    "teReo": "Waitomo",
+    "region": "Waikato",
+    "island": "North",
+    "lat": -38.2608,
+    "lng": 175.1036,
+    "photo": "/images/waitomo.jpg",
+    "credit": "Photo: Pseudopanax at English Wikipedia / Public domain",
+    "licence": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limestone_cave_walls_in_Waitomo_Glowworm_Cave.jpg",
+    "desc": "Deep beneath the Waikato hills, the Waitomo Caves glow with the blue-green light of thousands of tiny glowworms called Arachnocampa luminosa, a species found only in New Zealand. The cave system was explored in 1887 by local Māori chief Tāne Tinorau and English surveyor Fred Mace.",
+    "why": "The caves formed here because the Waikato region sits on thick limestone that was laid down under a shallow sea about 30 million years ago. Over millions of years, slightly acidic rainwater dissolved the rock, carving out the vast underground chambers and passages that make Waitomo famous.",
+    "fact": "Did you know? The name 'Waitomo' comes from the Māori words wai (water) and tomo (hole or shaft), describing the stream that flows down into the cave.",
+    "curriculum": "NZ geography: limestone cave formation; Māori role in discovery of natural wonders (Level 4-5)",
+    "bonus": {
+      "q": "What is the scientific name of the New Zealand glowworm found at Waitomo?",
+      "opts": ["Lampyris noctiluca", "Arachnocampa luminosa", "Photinus pyralis"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Waitomo_Glowworm_Cave",
+      "government": "https://teara.govt.nz/en/1966/waitomo-caves"
+    }
+  },
+  {
+    "id": "stewart-island",
+    "name": "Stewart Island / Rakiura",
+    "teReo": "Rakiura",
+    "region": "Southland",
+    "island": "South",
+    "lat": -46.8980,
+    "lng": 168.1250,
+    "photo": "/images/stewart-island.jpg",
+    "credit": "Photo: Bruce Tuten / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oban_on_Stewart_Island,_NZ,_Halfmoon_Harbour_606.jpg",
+    "desc": "Rakiura, meaning 'glowing skies', is New Zealand's third-largest island and lies 30 kilometres south of the South Island across Foveaux Strait. More than 85 percent of the island is protected as Rakiura National Park, making it a true wilderness haven.",
+    "why": "Because introduced predators like stoats and ferrets never reached Stewart Island, native birds including the southern tokoeka kiwi have thrived here in numbers found nowhere else in New Zealand. The island's remote location and tiny population of around 500 people also means almost zero light pollution, earning it recognition as an International Dark Sky Sanctuary in 2019.",
+    "fact": "Did you know? Southern tokoeka kiwi on Stewart Island are unusual because, unlike most kiwi, they are active during the day as well as at night.",
+    "curriculum": "Conservation, island biogeography, biodiversity, dark sky environments (Level 5)",
+    "bonus": {
+      "q": "What percentage of Stewart Island / Rakiura is protected as a National Park?",
+      "opts": ["About 50 percent", "About 85 percent", "About 30 percent"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Stewart_Island_/_Rakiura",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/stewart-island-rakiura/rakiura-national-park/nature-and-history/"
+    }
+  },
+  {
+    "id": "marlborough-sounds",
+    "name": "Marlborough Sounds",
+    "teReo": "Te Tauihu-o-te-Waka",
+    "region": "Marlborough",
+    "island": "South",
+    "lat": -41.1417,
+    "lng": 174.0894,
+    "photo": "/images/marlborough-sounds.jpg",
+    "credit": "Photo: Phillip Capper / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pelorus_Sound_in_1970.jpg",
+    "desc": "The Marlborough Sounds are a vast network of sea-drowned valleys at the top of the South Island, covering around 4,000 square kilometres of winding waterways, islands, and peninsulas. The name Te Tauihu-o-te-Waka means 'the prow of the canoe', reflecting the region's place at the front of the ancestral waka.",
+    "why": "The Sounds were formed when ancient river valleys were flooded by rising sea levels after the last ice age, creating one of the most complex coastlines in the world. Marlborough also receives over 2,500 hours of sunshine per year, making it one of New Zealand's sunniest regions and perfect for growing world-famous Sauvignon Blanc grapes and farming mussels and salmon.",
+    "fact": "Did you know? The Marlborough Sounds coastline is so twisted and complex it makes up roughly one-tenth of New Zealand's entire coastline.",
+    "curriculum": "Climate regions: drowned valley formation, aquaculture, land use (Level 5)",
+    "bonus": {
+      "q": "How were the Marlborough Sounds created?",
+      "opts": ["A volcanic eruption filled valleys with lava", "Ancient river valleys were flooded by rising sea levels", "Glaciers carved out the inlets"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Marlborough_Sounds",
+      "government": "https://teara.govt.nz/en/marlborough-region"
+    }
+  },
+  {
+    "id": "kaikoura",
+    "name": "Kaikōura",
+    "teReo": "Kaikōura",
+    "region": "Canterbury",
+    "island": "South",
+    "lat": -42.4000,
+    "lng": 173.6800,
+    "photo": "/images/kaikoura.jpg",
+    "credit": "Photo: Pavel Špindler / CC BY 3.0",
+    "licence": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaikoura_-_pob%C5%99e%C5%BE%C3%AD_-_panoramio.jpg",
+    "desc": "Kaikōura is a small coastal town in Canterbury famous for whale watching, where sperm whales can be seen remarkably close to shore all year round. A powerful magnitude 7.8 earthquake struck the region in November 2016, lifting parts of the coastline by several metres and reshaping the seabed.",
+    "why": "Kaikōura sits above a deep submarine canyon that plunges to over 1,000 metres just offshore, funnelling nutrient-rich deep ocean water to the surface and creating one of the richest marine ecosystems on Earth. This natural conveyor belt of food is why sperm whales gather here, and why Kaikōura is also home to huge colonies of seabirds.",
+    "fact": "Did you know? Kaikōura is the only place in the world where sperm whales are routinely found so close to the coast.",
+    "curriculum": "Marine environments, tectonic activity, conservation, biodiversity (Level 5)",
+    "bonus": {
+      "q": "Why do sperm whales gather near Kaikōura all year round?",
+      "opts": ["The water is warmer there than anywhere else", "A deep underwater canyon brings nutrient-rich water close to shore", "There are no fishing boats to disturb them"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Kaik%C5%8Dura",
+      "government": "https://niwa.co.nz/news/kaikoura-canyon-shows-early-signs-ecosystem-recovery"
+    }
+  },
+  {
+    "id": "paparoa",
+    "name": "Paparoa National Park",
+    "teReo": "Paparoa",
+    "region": "West Coast",
+    "island": "South",
+    "lat": -42.0830,
+    "lng": 171.5000,
+    "photo": "/images/paparoa.jpg",
+    "credit": "Photo: Jase Blair / CC BY-SA 4.0",
+    "licence": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paparoa_National_Park_%E2%80%A2_Jase_Blair_%E2%80%A2_Katabatic_%E2%80%A2_01.jpg",
+    "desc": "Paparoa National Park on the West Coast is famous for its dramatic limestone landscape, lush native rainforest, and extraordinary biodiversity. It is one of New Zealand's wettest places, with some parts of the park receiving up to 6,000 millimetres of rain each year.",
+    "why": "The West Coast sits directly in the path of moisture-laden westerly winds blowing in from the Tasman Sea, and when those winds hit the Southern Alps they are forced upward and dump enormous amounts of rain. All that water has carved the park's spectacular limestone karst landscape over millions of years.",
+    "fact": "Did you know? Rain can fall on more than 200 days a year in Paparoa National Park, making it one of the rainiest places in New Zealand.",
+    "curriculum": "Climate patterns: West Coast rainfall, limestone karst geography, conservation (Level 5)",
+    "bonus": {
+      "q": "Why does the West Coast of the South Island receive so much rain?",
+      "opts": ["It is closest to the equator", "Westerly winds carry moisture from the Tasman Sea and drop it when they hit the mountains", "It has the most rivers in New Zealand"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Paparoa_National_Park",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/"
+    }
+  },
+  {
+    "id": "lake-te-anau",
+    "name": "Lake Te Anau",
+    "teReo": "Te Ana-au",
+    "region": "Southland",
+    "island": "South",
+    "lat": -45.2000,
+    "lng": 167.8000,
+    "photo": "/images/lake-te-anau.jpg",
+    "credit": "Photo: grumpylumixuser / CC BY 3.0",
+    "licence": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:After_The_Rain._-_panoramio.jpg",
+    "desc": "Te Ana-au is the largest lake in the South Island and the gateway to Fiordland National Park, stretching 65 kilometres from north to south with three deep inland fiords branching off its western shore. The lake reaches a maximum depth of 425 metres, meaning its deepest point sits 215 metres below sea level.",
+    "why": "Fiordland, which surrounds the western shores of Lake Te Anau, receives up to 7 metres of rain per year due to the 'Roaring Forties' westerly winds picking up moisture from the Tasman Sea and dumping it when they hit the mountains. This extreme rainfall feeds the lake, powers countless waterfalls, and sustains the ancient rainforests and unique wildlife of the region.",
+    "fact": "Did you know? The three fiords branching from Lake Te Anau are the only inland fiords in New Zealand: all other fiords in the country open to the sea.",
+    "curriculum": "Fiordland climate, rainfall patterns, glacial lakes, freshwater environments (Level 5)",
+    "bonus": {
+      "q": "What makes the fiords of Lake Te Anau unique in New Zealand?",
+      "opts": ["They are the deepest in the world", "They are the only inland fiords in New Zealand", "They were formed by volcanoes"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lake_Te_Anau",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/know-before-you-go/weather-and-climate-in-fiordland/"
+    }
+  },
+  {
+    "id": "cromwell",
+    "name": "Cromwell, Central Otago",
+    "teReo": "Cromwell",
+    "region": "Otago",
+    "island": "South",
+    "lat": -45.0459,
+    "lng": 169.1956,
+    "photo": "/images/cromwell.jpg",
+    "credit": "Photo: Tim Parkinson / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deadmans_Point_Bridge_Lake_Dunstan_Cromwell.jpg",
+    "desc": "Cromwell sits at the heart of Central Otago, New Zealand's driest region, where hot summers and cold winters create ideal conditions for growing cherries, apricots, peaches, and plums. The town sits on the shores of Lake Dunstan, a large lake created in the 1990s when the nearby Clyde Dam was built.",
+    "why": "Central Otago is sheltered from rain-bearing westerly winds by the Southern Alps, so it receives less than 400 millimetres of rain per year and experiences sharp temperature swings between seasons. This dry continental climate, with warm sunny days and cool nights, is exactly what stone fruit trees need to produce flavourful, sweet fruit.",
+    "fact": "Did you know? A giant sculpture of stone fruit stands at the entrance to Cromwell to celebrate its reputation as New Zealand's stone fruit capital.",
+    "curriculum": "Climate regions: continental climate, rain shadow effect, agriculture (Level 5)",
+    "bonus": {
+      "q": "Why is Central Otago so dry compared to the West Coast?",
+      "opts": ["It is far from the sea", "The Southern Alps block rain-bearing westerly winds, creating a rain shadow", "It has no rivers to bring moisture"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Cromwell,_New_Zealand",
+      "government": "https://niwa.co.nz/climate-and-weather/regional-climatologies/otago"
+    }
+  },
+  {
+    "id": "rangitoto",
+    "name": "Rangitoto Island",
+    "teReo": "Rangitoto",
+    "region": "Auckland",
+    "island": "North",
+    "lat": -36.7867,
+    "lng": 174.8601,
+    "photo": "/images/rangitoto.jpg",
+    "credit": "Photo: Pseudopanax at English Wikipedia / Public domain",
+    "licence": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panoramic_view_over_Rangitoto_Island_towards_Motutapu_Island.jpg",
+    "desc": "Rangitoto is the youngest and largest of Auckland's roughly 50 volcanoes, rising to 260 metres above the Hauraki Gulf and erupting in two phases around 600 years ago. The island is home to the largest pōhutukawa forest in the world, with the crimson-flowered trees now covering about 80 percent of the island.",
+    "why": "Rangitoto's pōhutukawa forest is remarkable because it grew on bare, harsh lava rock with almost no soil. Over centuries the trees slowly colonised the volcanic rock by sending roots into tiny crevices, creating sheltered vegetation islands that gradually joined up to form continuous forest.",
+    "fact": "Did you know? Rangitoto produced nearly as much volcanic material in its eruption as all the other Auckland volcanoes combined over 200,000 years.",
+    "curriculum": "Volcanic geography, ecological succession, conservation, Auckland volcanic field (Level 4-5)",
+    "bonus": {
+      "q": "Roughly how long ago did Rangitoto last erupt?",
+      "opts": ["About 10,000 years ago", "About 600 years ago", "About 100 years ago"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Rangitoto_Island",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/rangitoto-island/nature-and-conservation/"
+    }
+  },
+  {
+    "id": "hobbiton",
+    "name": "Hobbiton Movie Set, Matamata",
+    "teReo": "Ōhinemuri",
+    "region": "Waikato",
+    "island": "North",
+    "lat": -37.8575,
+    "lng": 175.6797,
+    "photo": "/images/hobbiton.jpg",
+    "credit": "Photo: Joe Ross / CC BY-SA 2.0",
+    "licence": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Directional_Road_Sign,_Hobbiton_Movie_Set,_Matamata,_New_Zealand_2016_(50797205851).jpg",
+    "desc": "Hobbiton is a world-famous movie set built on a working sheep and cattle farm near Matamata in the Waikato, used to film the Shire scenes in the Lord of the Rings and Hobbit trilogies. Director Peter Jackson chose this rolling green farmland because it looked, in his words, 'like a slice of ancient England'.",
+    "why": "The Waikato region's fertile volcanic soils and mild, wet climate produce lush green pastures that made it perfect both for farming and for recreating Tolkien's Shire. The land was once marshland, drained in the 19th century to create some of New Zealand's most productive farmland.",
+    "fact": "Did you know? The tree above Bag End at Hobbiton was a real 26-tonne oak that was cut down near Matamata, transported to the set, and had 200,000 artificial leaves attached to it by hand.",
+    "curriculum": "Land use, Waikato geography, tourism, New Zealand landscapes (Level 4-5)",
+    "bonus": {
+      "q": "Which film trilogy is the Hobbiton movie set best known for?",
+      "opts": ["Harry Potter", "The Lord of the Rings", "Star Wars"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hobbiton_Movie_Set",
+      "government": "https://teara.govt.nz/en/waikato-region"
+    }
+  },
+  {
+    "id": "akaroa",
+    "name": "Akaroa",
+    "teReo": "Akaroa",
+    "region": "Canterbury",
+    "island": "South",
+    "lat": -43.8042,
+    "lng": 172.9667,
+    "photo": "/images/akaroa.jpg",
+    "credit": "Photo: Daniel Vorndran / DXR / CC BY-SA 4.0",
+    "licence": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seaside_in_Akaroa_20100120.jpg",
+    "desc": "Akaroa, meaning 'long harbour' in Kāi Tahu Māori, is a charming village on Banks Peninsula that was settled by French colonists in August 1840, making it the only French settlement in New Zealand. The town sits inside the eroded crater of an ancient Miocene volcano, which formed the distinctive harbour and surrounding hills.",
+    "why": "Akaroa Harbour is one of the world's most important habitats for the endangered Hector's dolphin, the world's smallest and rarest dolphin. The sheltered volcanic harbour provides ideal conditions for them, and in 1988 Banks Peninsula became the site of New Zealand's first marine mammal sanctuary to protect the dolphins.",
+    "fact": "Did you know? Hector's dolphins grow to only about 1.5 metres long and weigh around 50 kilograms, making them one of the tiniest dolphin species on the planet.",
+    "curriculum": "Settlement history, marine conservation, volcanic geography, biodiversity (Level 4-5)",
+    "bonus": {
+      "q": "What makes Hector's dolphins found at Akaroa special?",
+      "opts": ["They are the world's smallest and rarest dolphin", "They can swim faster than any other dolphin", "They only live in fresh water"],
+      "correct": 0
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Akaroa",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/banks-peninsula-area/akaroa-marine-reserve/"
+    }
+  },
+  {
+    "id": "queenstown",
+    "name": "Queenstown",
+    "teReo": "Tāhuna",
+    "region": "Otago",
+    "island": "South",
+    "lat": -45.0311,
+    "lng": 168.6625,
+    "photo": "/images/queenstown.jpg",
+    "credit": "Photo: edwin.11 / CC BY 2.0",
+    "licence": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queenstown_(4682213968).jpg",
+    "desc": "Tāhuna, meaning 'shallow bay', is New Zealand's adventure capital, set on the shore of Lake Wakatipu with the dramatic Remarkables mountain range rising to 2,324 metres to the south-east. The town draws visitors from all over the world for skiing, bungy jumping, jet boating, and countless other outdoor activities.",
+    "why": "Queenstown's geography is shaped by glaciers that carved out Lake Wakatipu, one of New Zealand's longest lakes at 80 kilometres, and sculpted the surrounding mountain ranges during the last ice age. The Remarkables Conservation Area protects the unique alpine flora, glacial tarns, and schist rock formations that make the landscape so spectacular.",
+    "fact": "Did you know? Lake Wakatipu has a natural 'heartbeat' where the water level rises and falls by about 20 centimetres roughly every 27 minutes, caused by changes in atmospheric pressure.",
+    "curriculum": "Glacial geography, alpine environments, tourism, conservation (Level 4-5)",
+    "bonus": {
+      "q": "What shaped Lake Wakatipu and the surrounding mountains near Queenstown?",
+      "opts": ["Volcanic eruptions", "Glaciers during the last ice age", "A massive earthquake"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Queenstown,_New_Zealand",
+      "government": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/remarkables-conservation-area/"
+    }
+  },
+  {
+    "id": "oamaru",
+    "name": "Oamaru",
+    "teReo": "Ōamaru",
+    "region": "Otago",
+    "island": "South",
+    "lat": -44.9980,
+    "lng": 171.0020,
+    "photo": "/images/oamaru.jpg",
+    "credit": "Photo: Pseudopanax at English Wikipedia / Public domain",
+    "licence": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oamaru_Post_Office.jpg",
+    "desc": "Ōamaru is a North Otago town famous for its grand Victorian and Edwardian buildings, all constructed from a creamy-white local limestone called Ōamaru stone or whitestone. The town is also home to a colony of kororā (little blue penguins), the world's smallest penguin species, which return to their nesting site every evening.",
+    "why": "The local whitestone limestone was easy to cut and shape, so 19th-century builders used it for almost everything, giving Ōamaru one of the best-preserved historic streetscapes in New Zealand. The little blue penguin colony thrives here because the old quarry provides safe, sheltered nesting burrows.",
+    "fact": "Did you know? Kororā, the little blue penguin, is the world's smallest penguin, standing only about 25 centimetres tall: roughly the same height as a 30-centimetre ruler.",
+    "curriculum": "Settlement history, geology/limestone, conservation, biodiversity (Level 4-5)",
+    "bonus": {
+      "q": "What is the special building material that gives Ōamaru its famous white heritage buildings?",
+      "opts": ["Sandstone", "Local whitestone limestone called Ōamaru stone", "Imported marble"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Oamaru",
+      "government": "https://teara.govt.nz/en/otago-places"
+    }
+  },
+  {
+    "id": "hokitika",
+    "name": "Hokitika",
+    "teReo": "Hokitika",
+    "region": "West Coast",
+    "island": "South",
+    "lat": -42.7156,
+    "lng": 170.9681,
+    "photo": "/images/hokitika.jpg",
+    "credit": "Photo: Krzysztof Golik / CC BY-SA 4.0",
+    "licence": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Street_in_Hokitika_01.jpg",
+    "desc": "Hokitika is a small West Coast town at the mouth of the Hokitika River, famous as the centre of New Zealand's pounamu (greenstone or jade) carving industry, with the precious stone sourced from the nearby Arahura River, a river considered sacred to Ngāi Tahu. The town boomed during the 1860s gold rush, briefly becoming one of New Zealand's busiest ports.",
+    "why": "Pounamu forms deep within the earth and is brought to the surface through tectonic processes along the West Coast, particularly in rivers like the Arahura that cut through ancient metamorphic rock. Under the 1997 Ngāi Tahu Claims Settlement Act, the iwi was granted ownership of all pounamu in the South Island.",
+    "fact": "Did you know? At the height of the West Coast gold rush in 1867, Hokitika was ranked first in all of New Zealand for the value of goods exported through its port.",
+    "curriculum": "Cultural heritage, Māori taonga, tectonic geology, gold rush history (Level 4-5)",
+    "bonus": {
+      "q": "Which river near Hokitika is the most important source of pounamu and is considered sacred to Ngāi Tahu?",
+      "opts": ["The Hokitika River", "The Arahura River", "The Waitaki River"],
+      "correct": 1
+    },
+    "sources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hokitika",
+      "government": "https://teara.govt.nz/en/pounamu-jade-or-greenstone"
+    }
+  }
+]
