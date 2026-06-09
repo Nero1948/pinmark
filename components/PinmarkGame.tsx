@@ -20,6 +20,8 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
   const [phase, setPhase] = useState<GamePhase>("playing");
   const [guess, setGuess] = useState<Coords | null>(null);
   const [scores, setScores] = useState<RoundScore[]>([]);
+  const [isPhotoZoomed, setIsPhotoZoomed] = useState(false);
+  const [isMapZoomed, setIsMapZoomed] = useState(false);
   const confettiFiredRef = useRef(false);
 
   const currentLocation = locations[roundIndex];
@@ -28,7 +30,21 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
 
   useEffect(() => {
     confettiFiredRef.current = false;
+    setIsPhotoZoomed(false);
+    setIsMapZoomed(false);
   }, [roundIndex]);
+
+  useEffect(() => {
+    if (!isPhotoZoomed && !isMapZoomed) return;
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setIsPhotoZoomed(false);
+        setIsMapZoomed(false);
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [isPhotoZoomed, isMapZoomed]);
 
   useEffect(() => {
     if (phase !== "results") return;
@@ -149,25 +165,34 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
       </div>
 
       <div className="pm-game__body">
-        <div className="pm-game__photo-col">
-          <div className="pm-photo-wrap">
+        <div className="pm-photo-stage">
+          <button
+            type="button"
+            className="pm-photo-button"
+            onClick={() => setIsPhotoZoomed(true)}
+            aria-label="Tap to zoom photo"
+          >
             <Image
               src={currentLocation.photo}
-              alt={`Photo of ${currentLocation.name}`}
-              fill
-              style={{ objectFit: "cover" }}
+              alt="Mystery New Zealand location"
+              width={1920}
+              height={1280}
+              className="pm-photo"
               priority={roundIndex === 0}
-              sizes="(max-width: 768px) 100vw, 50vw"
+              sizes="(min-width: 920px) 64vw, 100vw"
             />
-          </div>
+            <span className="pm-photo-zoom-hint" aria-hidden="true">
+              Tap to zoom
+            </span>
+          </button>
           <p className="pm-photo-credit">{currentLocation.credit}</p>
         </div>
 
-        <div className="pm-game__map-col">
+        <aside className="pm-guess-panel">
           {phase === "playing" ? (
             <>
               <p className="pm-map-hint">
-                {guess ? "Drag your pin to adjust, then submit." : "Click on the map to place your guess."}
+                {guess ? "Drag your pin to adjust, then submit." : "Tap the map to place your pin."}
               </p>
               <GuessMap
                 answer={null}
@@ -177,6 +202,13 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
                 roundKey={`${pack.id}-${roundIndex}`}
                 className="pm-game__map"
               />
+              <button
+                className="pm-map-zoom-button"
+                onClick={() => setIsMapZoomed(true)}
+                type="button"
+              >
+                Open map
+              </button>
               <button
                 className="pm-btn pm-btn--primary pm-game__submit"
                 onClick={handleSubmit}
@@ -196,6 +228,17 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
                 roundKey={`${pack.id}-${roundIndex}`}
                 className="pm-game__map pm-game__map--revealed"
               />
+              <div className="pm-map-legend">
+                <span className="pm-map-legend__guess">Your guess</span>
+                <span className="pm-map-legend__answer">Answer</span>
+              </div>
+              <button
+                className="pm-map-zoom-button"
+                onClick={() => setIsMapZoomed(true)}
+                type="button"
+              >
+                Open map
+              </button>
               <RevealCard
                 location={currentLocation}
                 score={currentScore}
@@ -205,8 +248,68 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
               />
             </>
           )}
-        </div>
+        </aside>
       </div>
+
+      {isPhotoZoomed && (
+        <div
+          className="pm-photo-modal"
+          onClick={() => setIsPhotoZoomed(false)}
+          role="dialog"
+          aria-label="Zoomed photo"
+        >
+          <button
+            className="pm-modal-close"
+            onClick={() => setIsPhotoZoomed(false)}
+            type="button"
+          >
+            Close
+          </button>
+          <Image
+            src={currentLocation.photo}
+            alt="Mystery New Zealand location, zoomed"
+            width={1920}
+            height={1280}
+            className="pm-photo-modal__img"
+            sizes="96vw"
+          />
+        </div>
+      )}
+
+      {isMapZoomed && (
+        <div className="pm-map-modal" role="dialog" aria-label="Zoomed map">
+          <div className="pm-map-modal__content">
+            <div className="pm-map-modal__header">
+              <p className="pm-map-hint">
+                {phase === "playing"
+                  ? guess
+                    ? "Drag your pin to adjust, then close the map to submit."
+                    : "Tap anywhere in New Zealand to drop your pin."
+                  : "Your guess and the answer."}
+              </p>
+              <button
+                className="pm-modal-close pm-modal-close--static"
+                onClick={() => setIsMapZoomed(false)}
+                type="button"
+              >
+                Done
+              </button>
+            </div>
+            <GuessMap
+              answer={
+                phase === "playing"
+                  ? null
+                  : { lat: currentLocation.lat, lng: currentLocation.lng }
+              }
+              disabled={phase !== "playing"}
+              guess={guess}
+              onGuessChange={handleGuessChange}
+              roundKey={`${pack.id}-${roundIndex}-zoomed`}
+              className="pm-game__map pm-game__map--zoomed"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
