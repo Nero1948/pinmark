@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Fredoka, Nunito } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const fredoka = Fredoka({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-fredoka",
   display: "swap"
 });
 
-const inter = Inter({
+const nunito = Nunito({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-nunito",
   display: "swap"
 });
 
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-NZ" className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang="en-NZ" className={`${fredoka.variable} ${nunito.variable}`}>
       <body>
         {children}
         <Analytics />

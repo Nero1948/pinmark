@@ -59,7 +59,7 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
     if (confettiFiredRef.current) return;
     confettiFiredRef.current = true;
     const confetti = (await import("canvas-confetti")).default;
-    const colours = ["#f5d66b", "#d6603c", "#173c36", "#136f63", "#fffdf7"];
+    const colours = ["#ffc83d", "#ff5a5f", "#2f9e63", "#5bc8eb", "#8a5cf6"];
     const count = ratio >= 0.9 ? 300 : 150;
     confetti({ particleCount: count, spread: 80, origin: { y: 0.55 }, colors: colours });
   }
@@ -71,7 +71,7 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
       particleCount: 80,
       spread: 60,
       origin: { y: 0.6 },
-      colors: ["#f5d66b", "#d6603c", "#173c36"]
+      colors: ["#ffc83d", "#ff5a5f", "#2f9e63"]
     });
   }
 
@@ -165,7 +165,8 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
       </div>
 
       <div className="pm-game__body">
-        <div className="pm-photo-stage">
+        {/* key change re-runs the entrance animation for every new photo */}
+        <div className="pm-photo-stage" key={currentLocation.id}>
           <button
             type="button"
             className="pm-photo-button"
@@ -192,7 +193,9 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
           {phase === "playing" ? (
             <>
               <p className="pm-map-hint">
-                {guess ? "Drag your pin to adjust, then submit." : "Tap the map to place your pin."}
+                {guess
+                  ? "Drag your pin to adjust, then submit! 🎯"
+                  : "Where in Aotearoa is this? Tap the map! 📍"}
               </p>
               <GuessMap
                 answer={null}

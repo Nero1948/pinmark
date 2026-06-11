@@ -21,8 +21,8 @@ const NZ_BOUNDS: [[number, number], [number, number]] = [
   [-33.4, 179.9]
 ];
 
-const GUESS_COLOUR = "#d6603c";
-const ANSWER_COLOUR = "#173c36";
+const GUESS_COLOUR = "#ff5a5f";
+const ANSWER_COLOUR = "#1f7a49";
 const STAR_ZONE_KM = 30;
 
 function makePinHtml(colour: string): string {
@@ -166,8 +166,8 @@ export function GuessMap({
         if (!zoneCircleRef.current) {
           zoneCircleRef.current = L.circle([answer.lat, answer.lng], {
             radius: STAR_ZONE_KM * 1000,
-            color: "#f5d66b",
-            fillColor: "#f5d66b",
+            color: "#ffc83d",
+            fillColor: "#ffc83d",
             fillOpacity: 0.12,
             weight: 2,
             opacity: 0.7,
