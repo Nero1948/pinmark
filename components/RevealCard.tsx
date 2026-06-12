@@ -1,9 +1,35 @@
 "use client";
 
-import { useState, type CSSProperties } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
 import type { Location, RoundScore } from "@/lib/types";
 import { StarRating } from "./StarRating";
-import { formatKm } from "@/lib/game";
+import { formatKm, getCheer } from "@/lib/game";
+
+/* Rolls the distance up from 0 like a score meter, so the number
+   lands with a little drama instead of just appearing. */
+function useCountUp(target: number, durationMs = 900): number {
+  const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduced || target < 0.5) {
+      setValue(target);
+      return;
+    }
+    const start = performance.now();
+    let raf = 0;
+    const tick = (now: number) => {
+      const t = Math.min(1, (now - start) / durationMs);
+      const eased = 1 - Math.pow(1 - t, 3);
+      setValue(target * eased);
+      if (t < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [target, durationMs]);
+
+  return value;
+}
 
 type RevealCardProps = {
   location: Location;
@@ -22,6 +48,7 @@ function stage(n: number): CSSProperties {
 export function RevealCard({ location, score, isLastRound, onNext, onBonusAnswer }: RevealCardProps) {
   const [bonusAnswer, setBonusAnswer] = useState<number | null>(null);
   const bonusAnswered = bonusAnswer !== null;
+  const animatedKm = useCountUp(score.km);
 
   // The fact text sometimes starts with "Did you know?" which the
   // box label already says, so trim it to avoid saying it twice.
@@ -38,13 +65,19 @@ export function RevealCard({ location, score, isLastRound, onNext, onBonusAnswer
       <div className="pm-reveal__score pm-stage" style={stage(0)}>
         <StarRating stars={score.stars} size="lg" />
         <span className="pm-reveal__dist">
-          {score.km < 0.5 ? "Bullseye!" : formatKm(score.km) + " away"}
+          {score.km < 0.5 ? "Bullseye!" : formatKm(animatedKm) + " away"}
         </span>
+        <p className="pm-reveal__cheer">
+          {score.km < 0.5 ? "Perfect pin! Are you secretly a kārearea? 🦅" : getCheer(score.stars)}
+        </p>
       </div>
 
       <div className="pm-stage" style={stage(1)}>
         <h2 className="pm-reveal__name">{location.name}</h2>
-        {location.teReo && location.teReo !== location.name.split("/")[0].trim() && (
+        {/* Only show the te reo subtitle when it adds something the
+           title doesn't already say (e.g. "Milford Sound / Piopiotahi"
+           should not repeat "Piopiotahi" underneath). */}
+        {location.teReo && !location.name.includes(location.teReo) && (
           <p className="pm-reveal__tereo">{location.teReo}</p>
         )}
       </div>

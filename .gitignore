@@ -21,6 +21,9 @@
 .DS_Store
 *.pem
 
+# local photo sourcing scratch folder (the game uses /public/images)
+/images/
+
 # debug
 npm-debug.log*
 yarn-debug.log*

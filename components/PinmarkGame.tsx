@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect, useRef } from "react";
 import Image from "next/image";
 import type { Location, Pack, RoundScore, GamePhase } from "@/lib/types";
 import { haversineKm, calcStars, totalStars, bonusCount, getResultMessage } from "@/lib/game";
+import { recordBest } from "@/lib/best";
 import { GuessMap } from "./GuessMap";
 import { StarRating } from "./StarRating";
 import { RevealCard } from "./RevealCard";
@@ -22,7 +23,10 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
   const [scores, setScores] = useState<RoundScore[]>([]);
   const [isPhotoZoomed, setIsPhotoZoomed] = useState(false);
   const [isMapZoomed, setIsMapZoomed] = useState(false);
+  const [isNewBest, setIsNewBest] = useState(false);
+  const [shareCopied, setShareCopied] = useState(false);
   const confettiFiredRef = useRef(false);
+  const bestRecordedRef = useRef(false);
 
   const currentLocation = locations[roundIndex];
   const currentScore = scores[roundIndex];
@@ -33,6 +37,22 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
     setIsPhotoZoomed(false);
     setIsMapZoomed(false);
   }, [roundIndex]);
+
+  /* On mobile the map sits below the photo, so after "Next Location"
+     or "See Results" the viewport would stay stuck at the map. Scroll
+     back to the top so the new photo (or the results) is what you see.
+     Submitting a guess (phase "revealed") must NOT scroll, because the
+     player is looking at the map to see how close they were. */
+  const hasMountedRef = useRef(false);
+  useEffect(() => {
+    if (!hasMountedRef.current) {
+      hasMountedRef.current = true;
+      return;
+    }
+    if (phase === "revealed") return;
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reducedMotion ? "auto" : "smooth" });
+  }, [roundIndex, phase]);
 
   useEffect(() => {
     if (!isPhotoZoomed && !isMapZoomed) return;
@@ -53,7 +73,11 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
     if (stars / max >= 0.5) {
       fireConfetti(stars / max);
     }
-  }, [phase, scores, locations.length]);
+    if (!bestRecordedRef.current) {
+      bestRecordedRef.current = true;
+      setIsNewBest(recordBest(pack.id, stars, max));
+    }
+  }, [phase, scores, locations.length, pack.id]);
 
   async function fireConfetti(ratio: number) {
     if (confettiFiredRef.current) return;
@@ -110,7 +134,43 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
     setPhase("playing");
     setGuess(null);
     setScores([]);
+    setIsNewBest(false);
+    setShareCopied(false);
     confettiFiredRef.current = false;
+    bestRecordedRef.current = false;
+  }
+
+  /* Wordle-style share text: coloured squares per round, no place
+     names so it never spoils the answers for classmates. */
+  function buildShareText(): string {
+    const squares = scores.map((s) => ["⬜", "🟧", "🟨", "🟩"][s.stars]).join("");
+    const stars = totalStars(scores);
+    const bonus = bonusCount(scores);
+    return [
+      `📍 Pinmark · ${pack.title}`,
+      `${squares} ${stars}/${locations.length * 3} ⭐${bonus > 0 ? ` (+${bonus} bonus)` : ""}`,
+      `Can you beat me? ${window.location.origin}/play/${pack.id}`
+    ].join("\n");
+  }
+
+  async function handleShare() {
+    const text = buildShareText();
+    if (navigator.share) {
+      try {
+        await navigator.share({ text });
+        return;
+      } catch {
+        /* user closed the share sheet, or it's unsupported: fall
+           through to the clipboard instead */
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(text);
+      setShareCopied(true);
+      window.setTimeout(() => setShareCopied(false), 2000);
+    } catch {
+      /* clipboard blocked: nothing useful we can do */
+    }
   }
 
   const handleGuessChange = useCallback((g: Coords) => setGuess(g), []);
@@ -129,6 +189,7 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
             <p className="pm-results__bonus">+{bonus} bonus question{bonus !== 1 ? "s" : ""} correct</p>
           )}
           <p className="pm-results__message">{getResultMessage(stars, max)}</p>
+          {isNewBest && <span className="pm-results__newbest">🏆 New personal best!</span>}
         </div>
         <div className="pm-results__rounds">
           {scores.map((s, i) => {
@@ -143,6 +204,9 @@ export function PinmarkGame({ pack, locations }: PinmarkGameProps) {
           })}
         </div>
         <div className="pm-results__actions">
+          <button className="pm-btn pm-btn--coral" onClick={handleShare} type="button">
+            {shareCopied ? "Copied! ✅" : "Share My Score"}
+          </button>
           <button className="pm-btn pm-btn--primary" onClick={handleRestart} type="button">
             Play Again
           </button>

@@ -23,7 +23,8 @@ const NZ_BOUNDS: [[number, number], [number, number]] = [
 
 const GUESS_COLOUR = "#ff5a5f";
 const ANSWER_COLOUR = "#1f7a49";
-const STAR_ZONE_KM = 30;
+/* Matches the 3-star distance in lib/game.ts calcStars. */
+const STAR_ZONE_KM = 50;
 
 function makePinHtml(colour: string): string {
   return `<div class="pm-pin-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 42" width="36" height="42">

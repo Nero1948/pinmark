@@ -18,10 +18,12 @@ export function haversineKm(
   return 2 * R * Math.asin(Math.sqrt(a));
 }
 
+/* Kid-friendly bands: 3 stars still means "you really know where this
+   is", but forgives fingertip precision on a tablet-sized map. */
 export function calcStars(km: number): 0 | 1 | 2 | 3 {
-  if (km <= 30) return 3;
-  if (km <= 100) return 2;
-  if (km <= 250) return 1;
+  if (km <= 50) return 3;
+  if (km <= 150) return 2;
+  if (km <= 300) return 1;
   return 0;
 }
 
@@ -55,6 +57,21 @@ export function totalStars(scores: RoundScore[]): number {
 
 export function bonusCount(scores: RoundScore[]): number {
   return scores.filter((s) => s.bonusCorrect === true).length;
+}
+
+/* Per-round encouragement: a bad guess should feel like a near miss,
+   not a failure. Shown under the stars on the reveal card. */
+export function getCheer(stars: 0 | 1 | 2 | 3): string {
+  switch (stars) {
+    case 3:
+      return "Tino pai! You really know this place! 🎯";
+    case 2:
+      return "Ka pai! So close!";
+    case 1:
+      return "Good thinking! You were in the right part of Aotearoa.";
+    default:
+      return "Tricky one! Now you'll know it for next time 💪";
+  }
 }
 
 export function getResultMessage(stars: number, maxStars: number): string {

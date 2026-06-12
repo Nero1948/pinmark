@@ -61,7 +61,7 @@ export default function ForTeachersPage() {
                 <td>Level 4</td>
               </tr>
               <tr>
-                <td><strong>Cities &amp; People</strong></td>
+                <td><strong>Cities of Aotearoa</strong></td>
                 <td>Social Organisation; Place and Environment</td>
                 <td>
                   Students explain why New Zealand's cities and towns are located where they are,
@@ -111,7 +111,7 @@ export default function ForTeachersPage() {
           <div className="pm-tip">
             <h3>Warm-Up (5 min)</h3>
             <p>
-              Project the game on a whiteboard. Start with the easiest pack (<em>Cities &amp; People</em>).
+              Project the game on a whiteboard. Start with the easiest pack (<em>Cities of Aotearoa</em>).
               Ask students: &ldquo;Where in Aotearoa do you think this is?&rdquo; Let them vote on a region
               before playing.
             </p>

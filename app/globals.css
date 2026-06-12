@@ -381,6 +381,22 @@ a:hover { color: var(--ocean); }
   font-weight: 700;
   color: var(--ink-soft);
 }
+.pm-pack-card__best {
+  font-size: .76rem;
+  font-weight: 800;
+  color: var(--sun-text);
+  background: var(--sun-soft);
+  border: 1px solid var(--sun-line);
+  padding: .15rem .55rem;
+  border-radius: 99px;
+  white-space: nowrap;
+  animation: pm-pop .4s both;
+}
+.pm-pack-card__best--perfect {
+  background: var(--fern-soft);
+  border-color: var(--fern-line);
+  color: var(--fern-deep);
+}
 
 /* =====================================================
    FOOTER
@@ -729,9 +745,16 @@ a:hover { color: var(--ocean); }
 .pm-reveal__score {
   display: flex;
   align-items: center;
-  gap: .75rem;
+  flex-wrap: wrap;
+  gap: .35rem .75rem;
   padding-bottom: .75rem;
   border-bottom: 2px solid var(--paper-2);
+}
+.pm-reveal__cheer {
+  flex-basis: 100%;
+  font-size: .92rem;
+  font-weight: 700;
+  color: var(--ink-soft);
 }
 .pm-reveal__dist {
   font-family: var(--ff-display);
@@ -893,6 +916,19 @@ a:hover { color: var(--ocean); }
   font-size: 1.15rem;
   color: var(--coral-deep);
   margin-top: .5rem;
+}
+.pm-results__newbest {
+  display: inline-block;
+  margin-top: .7rem;
+  background: var(--sun);
+  color: var(--navy);
+  font-family: var(--ff-display);
+  font-weight: 600;
+  font-size: .95rem;
+  padding: .3rem .95rem;
+  border-radius: 99px;
+  box-shadow: var(--shadow-sm);
+  animation: pm-pop .5s .4s both;
 }
 .pm-results__rounds {
   display: flex;
